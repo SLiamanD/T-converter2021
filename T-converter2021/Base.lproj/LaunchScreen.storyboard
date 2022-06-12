@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="загрузка... " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rjy-0t-UGf">
+                                <rect key="frame" x="280.5" y="486.5" width="207" height="51.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="4qx-k8-lnZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="RbH-z3-lLc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RbH-z3-lLc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="RbH-z3-lLc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="RbH-z3-lLc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="RbH-z3-lLc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2ak-AX-88Z"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HSf-PP-oP4"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HT0-8D-hB5"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LwU-rE-r40"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Pjl-d3-StX"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Qxo-Nq-Zb0"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gJH-tf-v1o"/>
+                            <constraint firstItem="Rjy-0t-UGf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hSJ-bw-XnU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2ak-AX-88Z"/>
+                                <exclude reference="HSf-PP-oP4"/>
+                                <exclude reference="LwU-rE-r40"/>
+                                <exclude reference="Qxo-Nq-Zb0"/>
+                                <exclude reference="gJH-tf-v1o"/>
+                                <exclude reference="hSJ-bw-XnU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2ak-AX-88Z"/>
+                                <include reference="hSJ-bw-XnU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="HSf-PP-oP4"/>
+                                <include reference="Qxo-Nq-Zb0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="LwU-rE-r40"/>
+                                <include reference="gJH-tf-v1o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-290" y="207"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

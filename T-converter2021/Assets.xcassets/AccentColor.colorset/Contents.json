@@ -1,0 +1,20 @@
+{
+  "colors" : [
+    {
+      "filename" : "icons8-погода-120.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "icons8-погода-120.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "icons8-погода-120.png",
+      "idiom" : "mac"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
